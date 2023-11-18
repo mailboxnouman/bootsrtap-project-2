@@ -122,6 +122,25 @@ button, a{
     background-color: var(--bs-secondary-color);
     color: var( --bs-main-color);
 }
+.icon-top{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--bs-main-color);
+}
+.icon-top:hover{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--bs-secondary-color);
+    border-radius: 50% !important;
+    transition: all ease-in-out .3s;
+}
+.icon-top a{
+    color: var(--bs-dark-color);
+}
+.icon-top a:hover{
+    color: var(--bs-main-color);
+    transition: all ease-in-out .3s;
+}
 
 .card-box-s:hover{
     box-shadow: rgba(149,157,165,0.2) 0 8px 24px;
