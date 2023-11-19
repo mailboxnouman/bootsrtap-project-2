@@ -196,18 +196,18 @@ button, a{
         display: none;
     }
     .sm-heading{
-        font-size: 3rem !important;
+        font-size: 2.5rem !important;
         text-align: center;
         padding-top: 100px;
     }
     .hero-video--section{
-        width: 25rem;
+        width: 20rem;
         border-radius: 1rem;
         margin-bottom: 10rem;
     }
     
     .para-width{
-        width:40ch !important;
+        width:35ch !important;
         align-self: center;
     }
     
