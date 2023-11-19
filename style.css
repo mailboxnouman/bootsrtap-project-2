@@ -194,13 +194,14 @@ button, a{
     .sm-heading{
         font-size: 2.5rem !important;
         text-align: center;
-        padding-top: 15vh;
+        /* margin-top: 15vh; */
+        
     }
     .hero-video--section{
         width: 80vw;
         margin-top: 2vh;
         border-radius: 1rem;
-        margin-bottom: 10rem;
+        /* margin-bottom: 10rem; */
     }
     
     .para-width{
@@ -208,7 +209,6 @@ button, a{
         align-self: center;
     }
    
-    
 }
 @media screen and (max-width: 340px) {
 
@@ -218,12 +218,12 @@ button, a{
     .sm-heading{
         font-size: 2.5rem !important;
         text-align: center;
-        padding-top: 100px;
+        /* padding-top: 100px; */
     }
     .hero-video--section{
         width: 90vw;
         border-radius: 1rem;
-        margin-bottom: 10rem;
+        /* margin-bottom: 10rem; */
     }
     .common-heading{
         font-size: 2rem !important;
