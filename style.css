@@ -174,24 +174,46 @@ button, a{
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 990px) {
     .more-info-section img{
-        position: absolute;
-        bottom: 10%;
-        /*right: 10%;*/
-        /*top: 50%;*/
-        top: 0;
-        left: 55%;
-        max-width: 100%;
-        width: 50%;
-        transform: scaleX(1);
+        display: none;
     }
-
+    .hero-video--section{
+        
+        margin-top: 2vh;
+        
+    }
 
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .more-info-section img{
+        display: none;
+    }
+    .sm-heading{
+        font-size: 2.5rem !important;
+        text-align: center;
+        padding-top: 15vh;
+    }
+    .hero-video--section{
+        width: 80vw;
+        margin-top: 2vh;
+        border-radius: 1rem;
+        margin-bottom: 10rem;
+    }
+    
+    .para-width{
+        width:35ch !important;
+        align-self: center;
+    }
+    .btn{
+        /* text-align: center !important; */
+    }
+    
+}
+@media screen and (max-width: 340px) {
+
     .more-info-section img{
         display: none;
     }
@@ -201,13 +223,15 @@ button, a{
         padding-top: 100px;
     }
     .hero-video--section{
-        width: 20rem;
+        width: 90vw;
         border-radius: 1rem;
         margin-bottom: 10rem;
     }
-    
+    .common-heading{
+        font-size: 2rem !important;
+    }
     .para-width{
-        width:35ch !important;
+        width:auto !important;
         align-self: center;
     }
     
