@@ -207,9 +207,7 @@ button, a{
         width:35ch !important;
         align-self: center;
     }
-    .btn{
-        /* text-align: center !important; */
-    }
+   
     
 }
 @media screen and (max-width: 340px) {
